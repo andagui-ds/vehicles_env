@@ -34,5 +34,5 @@ Sigue estos pasos para clonar el repositorio, configurar tu entorno y correr la 
 
 ### 1. Clonar el repositorio
 ```bash
-git clone <URL_DE_TU_REPOSITORIO>
+git clone <https://github.com/andagui-ds/vehicles_env.git>
 cd vehicles_env
