@@ -1,10 +1,15 @@
-# vehicles_env
-
 # Dashboard Analítico: Mercado de Vehículos Usados en EE.UU. 🚗
 
 Este proyecto es una aplicación web interactiva desarrollada con **Streamlit** y **Plotly** para realizar un Análisis Exploratorio de Datos (EDA) sobre un conjunto de datos que contiene más de 50,000 anuncios de venta de coches en los EE.UU.
 
 La plataforma permite a los usuarios interactuar de forma dinámica con los datos mediante filtros personalizados en tiempo real para analizar la distribución de precios, la relación entre kilometraje y costo, y la condición física de los vehículos.
+
+---
+
+## 🔗 Enlace a la Aplicación en Producción URL
+
+Puedes interactuar con el dashboard en tiempo real a través del siguiente enlace desplegado en Render:
+👉 **[Dashboard en Render](https://vehicles-env-kjcu.onrender.com/)**
 
 ---
 
@@ -21,10 +26,12 @@ La plataforma permite a los usuarios interactuar de forma dinámica con los dato
 
 ## 🛠️ Tecnologías Utilizadas
 
-*   **Python** (versión 3.14.6)
+*   **Python** (versión 3.12+)
 *   **Streamlit** (para la interfaz web interactiva)
 *   **Pandas** (para la manipulación y limpieza de los datos)
 *   **Plotly Express** (para la creación de gráficos interactivos)
+*   **nbformat** (utilizado para dar soporte, lectura y renderizado correcto de los archivos de Jupyter Notebook `.ipynb` en el entorno del proyecto)
+
 
 ---
 
@@ -33,6 +40,7 @@ La plataforma permite a los usuarios interactuar de forma dinámica con los dato
 Sigue estos pasos para clonar el repositorio, configurar tu entorno y correr la aplicación en tu computadora:
 
 ### 1. Clonar el repositorio
+Abre tu terminal y clona el proyecto:
 ```bash
-git clone <https://github.com/andagui-ds/vehicles_env.git>
+git clone https://github.com/andagui-ds/vehicles_env.git
 cd vehicles_env
